@@ -1,0 +1,39 @@
+2014-07-04 16:19:57 Notice: Notice (8): Undefined variable: msg in [/opt/lampp/htdocs/cake/lib/Cake/basics.php, line 609]
+Trace:
+__d - CORE/Cake/basics.php, line 609
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::renderLayout() - CORE/Cake/View/View.php, line 529
+View::render() - CORE/Cake/View/View.php, line 474
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 107
+
+2014-07-04 16:20:00 Notice: Notice (8): Undefined variable: msg in [/opt/lampp/htdocs/cake/lib/Cake/basics.php, line 609]
+Trace:
+__d - CORE/Cake/basics.php, line 609
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::renderLayout() - CORE/Cake/View/View.php, line 529
+View::render() - CORE/Cake/View/View.php, line 474
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 107
+
+2014-07-04 16:20:07 Notice: Notice (8): Undefined variable: msg in [/opt/lampp/htdocs/cake/lib/Cake/basics.php, line 609]
+Trace:
+__d - CORE/Cake/basics.php, line 609
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::renderLayout() - CORE/Cake/View/View.php, line 529
+View::render() - CORE/Cake/View/View.php, line 474
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 107
+
