@@ -47,6 +47,7 @@ class InscriptionsController extends AppController {
 	public function index() {
 		$this->Inscription->recursive = 0;
 		$this->set('inscriptions', $this->Paginator->paginate());
+		$this->set('inscriptions', $this->Inscription->find('all',array('order'=>'Inscription.date_assignment ASC')));
 		$this->set('categories',$this->Inscription->Date->Category->find('all'));
 		if ($this->request->is('post')) {
 			return $this->redirect(array('action' => 'download'));
@@ -102,6 +103,7 @@ class InscriptionsController extends AppController {
 			$findnit=$this->Inscription->find('all', array('conditions'=>array('nit'=>$nitc)));
 			foreach ($findnit as $findnits):
 				$fnit = $findnits['Inscription']['nit'];
+				$razon_social = $findnits['Inscription']['company_name'];
 		    endforeach;
 			
 			if($fnit=='')
@@ -111,7 +113,7 @@ class InscriptionsController extends AppController {
 			}
 			else
 			{
-			return $this->redirect(array('controller' => 'Inscriptions', 'action' => 'index_inscription',$nitc));
+			return $this->redirect(array('controller' => 'Inscriptions', 'action' => 'index_inscription',$nitc,$razon_social));
 			}
 		}
 	}
@@ -397,7 +399,7 @@ class InscriptionsController extends AppController {
 		}
 	}
 
-	public function updatemail($nitc = null,$ciudad = null ,$idcategorian = null,$razon_social= null,$digitovers=null){
+	public function updatemail($nitc = null,$ciudad = null ,$idcategorian = null,$razon_social = null,$digitovers = null){
 
 		if($nitc==''){
 			return $this->redirect(array('controller' => 'Categories', 'action' => 'addcategory'));
@@ -429,7 +431,6 @@ class InscriptionsController extends AppController {
 		$this->set('ciudad',$ciudad);
 		$this->set('idcategorian',$idcategorian);
 		$this->set('razon_social',$razon_social);
-	
 		$this->set('digitovers',$digitovers);
 		
 		
@@ -499,24 +500,30 @@ class InscriptionsController extends AppController {
 		$mensaje11="\n\n $razon_social";
 		$mensaje2="\n$nitc";
 		$mensaje3="\n\n\nApreciado postulante";
-		$mensaje4="\n\n\n\nAgradecemos su interés en hacer parte de la 8va Fiesta del libro y la cultura, evento cultural de la ciudad que hace parte de los Eventos del libro del Plan municipal de lectura de la Alcaldía de Medellín";
+		$mensaje4="\n\n\n\nAgradecemos su interés en hacer parte de la 8va. Fiesta del libro y la cultura, evento de ciudad que hace parte de los Eventos del libro, estrategia del Plan Municipal Medellín Lectura Viva";
 		//condicion
 		//cita
 		$mensaje5= "\n\nDe acuerdo a la convocatoria diligenciada anteriormente se asignarán las citas, según a su categoría y orden de inscripción a través del formulario, le enviamos este documento con el fin de informarle que su cita queda asignada de la siguiente manera:";
 		$mensaje6= "\n\nSu cita para participar en la exhibición comercial de la VII Fiesta del Libro y la Cultura fue asignada de la siguiente manera:" ;
 		$mensaje7="\n\nFecha y hora de su cita: \n";
+		$mensaje90="\n ";
 		$mensaje71=$citacionn;
 		$mensaje61="\n\nLugar: Oficina  de Los Eventos del Libro, Casa del Patrimonio, Carrera 50 No 59 – 06 Prado Centro";
 		$mensaje72="\n\nSu cita será atendida por: Nathalia Ortega ";
-		$mensaje8="\n\nRecuerde adjuntar por este medio todos los documentos solicitados para hacer valida la asignación de su stand.";
-		$mensaje9="\n\n •	Cámara de comercio, renovada del 2014 y con una vigencia de 30 días.";
+		$mensaje8="\n\nRecuerde adjuntar por este medio todos los documentos solicitados para hacer válida la asignación de su stand.";
+		$mensaje9="\n\n •	Cámara de comercio, renovada del 2014 y con una vigencia máxima de 30 días.";
 		$mensaje10="\n •	RUT (actualizado del 2013 en adelante)";
 		$mensaje11="\n •	Cédula representante legal";
-		$mensaje12="\n\nEsperamos contar con su presencia en la 8va Fiesta del libro y la cultura. Agradecemos su participación, colaboración y puntualidad en su cita. ";
+		$mensaje12="\n\nEsperamos contar con su presencia en la 8va. Fiesta del libro y la cultura. Agradecemos su participación, colaboración y puntualidad en su cita. Si por algún motivo no asiste a la misma, su stand quedará disponible.";
 		$mensaje14="\n\n ";
 			
 		//no cita
-		$mensaje51="\n\nDe acuerdo a la convocatoria diligenciada anteriormente, se asignarán las citas, según su categoría y orden de inscripción del formulario. Según el procedimiento fueron asignados los cupos disponibles, actualmente su entidad queda en lista de espera.  En caso de tener disponibilidad de stands después de atendidas las citas comenzaremos a asignar stands en el orden de la lista de espera.";
+		$mensaje51="\n\nLas citas serán asignadas de acuerdo a la categoría y orden de inscripción del formulario diligenciado anteriormente. Según el procedimiento fueron asignados la totalidad de los cupos disponibles. 
+Actualmente su entidad queda en lista de espera. En caso de tener disponibilidad de stands después de atendidas las citas, comenzaremos a asignarlos en el orden de la lista de espera que arroja el sistema.";
+
+		$mensaje52="\n\n ";
+		
+		$mensaje53="Esté pendiente de nuestras comunicaciones.";
 		
 		
 		//fin  de las dos citas
@@ -529,7 +536,7 @@ class InscriptionsController extends AppController {
 		$mensaje21="\n\n ";
 			
 		if($citacionn!=''){
-			$Email->send($mensaje1.$razon_social.$mensaje2.$mensaje3.$mensaje4.$mensaje5.$mensaje6.$mensaje7.
+			$Email->send($mensaje1.$razon_social.$mensaje2.$mensaje3.$mensaje4.$mensaje5.$mensaje6.$mensaje7.$mensaje90.
 					$mensaje71.$mensaje61.$mensaje72.$mensaje8.$mensaje9.$mensaje10.
 					$mensaje11.$mensaje12.$mensaje14.$mensaje15.$mensaje16.$mensaje17.$mensaje18.$mensaje19.
 					$mensaje20.$mensaje21);
@@ -537,16 +544,16 @@ class InscriptionsController extends AppController {
 		else
 		{
 			$Email->send($mensaje1.$razon_social.$mensaje2.
-					$mensaje3.$mensaje4.$mensaje51.$mensaje15.$mensaje16.$mensaje17.$mensaje18.$mensaje19.
+					$mensaje3.$mensaje4.$mensaje51.$mensaje52.$mensaje53.$mensaje15.$mensaje16.$mensaje17.$mensaje18.$mensaje19.
 					$mensaje20.$mensaje21);
 		
 		}
 			
 		//fin de envío
-		return $this->redirect(array('action' => 'index_inscription',$nitc,$ciudad,$idcategorian,$razon_social));
+		return $this->redirect(array('action' => 'index_inscription',$nitc,$razon_social));
 	}
 	
-	public function index_inscription($nitc = null,$ciudad = null ,$idcategorian = null,$razon_social= null,$digitovers=null) {
+	public function index_inscription($nitc = null,$razon_social= null) {
 	
 		if($nitc==''){
 			return $this->redirect(array('controller' => 'Categories', 'action' => 'addcategory'));
@@ -560,9 +567,10 @@ class InscriptionsController extends AppController {
 		$this->set('fecha',$fecha);
 		
 		$this->set('nitc',$nitc);
-		$this->set('ciudad',$ciudad);
-		$this->set('idcategorian',$idcategorian);
+		//$this->set('ciudad',$ciudad);
+		//$this->set('idcategorian',$idcategorian);
 		$this->set('razon_social',$razon_social);
+		//$this->set('digitovers',$digitovers);
 		
 		$citacion=$this->Inscription->query("select distinct date_name from date where inscription_id='$nitc'");
 		

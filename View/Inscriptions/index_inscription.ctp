@@ -40,14 +40,15 @@ window.print();
 			   	echo "Apreciado postulante";
 			   	echo "</br>";
 			   	echo "</br>";
-			   	echo "Agradecemos su interés en hacer parte de la 8va Fiesta del libro y la cultura, evento cultural de la ciudad que hace parte de los Eventos del libro del Plan municipal de lectura de la Alcaldía de Medellín";
+			   	echo "Agradecemos su interés en hacer parte de la 8va. Fiesta del libro y la cultura, evento de ciudad que hace parte de los Eventos del libro, estrategia del Plan Municipal Medellín Lectura Viva.";
 			   	echo "</br>";
 			   	echo "</br>";
 			   	if($citacionn!=''){
-			   	echo "De acuerdo a la convocatoria diligenciada anteriormente se asignarán las citas, según su categoría y orden de inscripción a través del formulario, le enviamos este documento con el fin de informarle que su cita queda asignada de la siguiente manera:";		
+			   	echo "De acuerdo a la convocatoria diligenciada anteriormente se asignarán las citas, según a su categoría y orden de inscripción a través del formulario, le enviamos este documento con el fin de informarle que su cita queda asignada de la siguiente manera:";		
 			   	echo "</br>";
 			   	echo "</br>";
 				echo "<b>Fecha y hora de su cita:</b> \n";
+				echo "</br>";
 				echo $this->Time->format($citacionn, '%B %e, %Y %I:%M %p');
 				echo "</br>";
 				echo "</br>";
@@ -57,17 +58,17 @@ window.print();
 				echo '<b>Su cita será atendida por:</b> Nathalia Ortega';
 				echo "</br>";
 				echo "</br>";
-				echo 'Recuerde adjuntar por este medio todos los documentos solicitados para hacer valida la asignación de su cita';
+				echo 'Recuerde adjuntar por este medio todos los documentos solicitados para hacer válida la asignación de su stand.';
 				echo "</br>";
 				echo "</br>";
-				echo "•	Cámara de comercio, renovada del 2014 y con una vigencia de 30 días.";
+				echo "•	Cámara de comercio, renovada del 2014 y con una vigencia máxima de 30 días.";
 				echo "</br>";
 				echo "•	RUT (actualizado del 2013 en adelante)";
 				echo "</br>";
-				echo "•	Cédula representante legal";
+				echo "•	Cédula del representante legal";
 				echo "</br>";
 				echo "</br>";
-				echo 'Esperamos contar con su presencia en la 8va Fiesta del libro y la cultura. Agradecemos su participación, colaboración y puntualidad en su cita. ';
+				echo 'Esperamos contar con su presencia en la 8va. Fiesta del libro y la cultura. Agradecemos su participación, colaboración y puntualidad en su cita. Si por algún motivo no asiste a la misma, su stand quedará disponible';
 				echo "</br>";
 				echo "</br>";
 				if($attached1!='' && $attached2!='' && $attached3!=''){
@@ -83,7 +84,11 @@ window.print();
 				echo $attached3;
 				}
 				}else{
-				echo 'De acuerdo a la convocatoria diligenciada anteriormente, se asignarán las citas, según su categoría y orden de inscripción del formulario. Según el procedimiento fueron asignados los cupos disponibles, actualmente su entidad queda en lista de espera.  En caso de tener disponibilidad de stands después de atendidas las citas comenzaremos a asignar stands en el orden de la lista de espera.';
+				echo 'Las citas serán asignadas de acuerdo a la categoría y orden de inscripción del formulario diligenciado anteriormente. Según el procedimiento fueron asignados la totalidad de los cupos disponibles. 
+Actualmente su entidad queda en lista de espera. En caso de tener disponibilidad de stands después de atendidas las citas, comenzaremos a asignarlos en el orden de la lista de espera que arroja el sistema.';
+				echo "</br>";
+				echo "</br>";
+				echo 'Esté pendiente de nuestras comunicaciones.';
 				}
 				echo "</br>";
 				echo "</br>";
@@ -113,7 +118,7 @@ window.print();
 	</table>
 	<div id=noprint>
 	    <div class="actions" align="left">
-		<?php if($attached1=='' || $attached2=='' || $attached3==''){
+		<?php if(($attached1=='' || $attached2=='' || $attached3=='') && $citacionn!=''){
 				echo $this->Html->link(__('Adjuntar archivos'), array('controller' => 'Inscriptions', 'action' => 'attached_add',$nitc)); 
 			  }
 		?>
