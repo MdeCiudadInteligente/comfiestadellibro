@@ -7,7 +7,7 @@
       $line = $inscription['Inscription'];
       $line = array_merge($line, array('category_name'=>"",'date_assignment'=>"",'date_name'=>""));
       
-      $date_assigment=$inscription['Date']['date_assignment'];
+      $date_assigment=$inscription['Inscription']['date_assignment'];
       $date_name=$inscription['Date']['date_name'];
       
       $line['date_assignment']=$date_assigment;

@@ -235,7 +235,7 @@ function conMayusculas(field)
 		<label style="padding-left:26px;font-size: 14px">Ingresar el indicativo y teléfono donde se encuentra ejemplo: 4-4440000</label>
 		<br/>
 		<?php 
-		echo $this->Form->input('cellphone',array('label'=>'Celular:','onkeypress'=>'return isNumberKey(event)'));
+		echo $this->Form->input('cellphone',array('label'=>'Celular:','maxLength'=>'10','onkeypress'=>'return isNumberKey(event)'));
 		?>
 		<br/>
 		<?php 

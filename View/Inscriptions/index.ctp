@@ -46,7 +46,7 @@
 		<td><?php echo  $this->Html->link($inscription['Inscription']['attached2'],array('controller' => 'webroot','action' => '/uploads/inscription/attached2/'.'/'.$inscription['Inscription']['attached2'])); ?>&nbsp;</td>
 		<!--<td><?php //echo h($inscription['Inscription']['attached3']); ?>&nbsp;</td>-->
 		<td><?php echo  $this->Html->link($inscription['Inscription']['attached3'],array('controller' => 'webroot','action' => '/uploads/inscription/attached3/'.'/'.$inscription['Inscription']['attached3'])); ?>&nbsp;</td>
-		<td><?php echo h($inscription['Date']['date_assignment']); ?>&nbsp;</td>
+		<td><?php echo h($inscription['Inscription']['date_assignment']); ?>&nbsp;</td>
 		
 		<?php $category_name='';?>
 		<?php foreach ($categories as $category): ?>

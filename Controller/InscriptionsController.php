@@ -99,7 +99,20 @@ class InscriptionsController extends AppController {
 			$nit= $this->request->data['Inscription']['busqueda'];
 			$digitover= $this->request->data['Inscription']['digitoverificacion'];
 			$nitc=$nit.'-'.$digitover;
+			$findnit=$this->Inscription->find('all', array('conditions'=>array('nit'=>$nitc)));
+			foreach ($findnit as $findnits):
+				$fnit = $findnits['Inscription']['nit'];
+		    endforeach;
+			
+			if($fnit=='')
+			{
+			$this->Session->setFlash(__('El nit que ingresó no se encuentra registrado en el sistema.'));
+			return $this->redirect(array('controller' => 'Inscriptions', 'action' => 'find'));
+			}
+			else
+			{
 			return $this->redirect(array('controller' => 'Inscriptions', 'action' => 'index_inscription',$nitc));
+			}
 		}
 	}
 	
@@ -426,6 +439,7 @@ class InscriptionsController extends AppController {
 		if($idcategorian!=''){
 			if($selecciudad!=array())
 			{
+				$this->Inscription->query("update inscriptions set date_assignment='$fecha' where nit='$nitc' ORDER BY nit asc LIMIT 1");
 				$actualizacion=$this->Inscription->query("update date set inscription_id ='$nitc',date_assignment='$fecha' where category_id='$idcategorian' and inscription_id='0' and date_state='Reservado' ORDER BY id_date asc LIMIT 1");
 					
 				//$this->set('actualizacion',$actualizacion);
