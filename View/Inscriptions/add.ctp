@@ -118,7 +118,13 @@ function conMayusculas(field)
 		document.getElementById("InscriptionContanctMail").focus();	
 	    return false;
 	}
-
+	
+	if(objfrm.getElementById("InscriptionDigitoverificacion").selectedIndex == 0) {
+		 document.getElementById("InscriptionDigitoverificacion").focus();	
+		 alert('Por favor elija el dígito de verificación');
+		 return false; 
+	 }
+	 
 	 if(objfrm.getElementById("representative_city").selectedIndex == 0) {
 		 document.getElementById("representative_city").focus();	
 		 alert('Por favor elija la ciudad del representante');
@@ -150,6 +156,7 @@ function conMayusculas(field)
 	<label style="padding-left:26px">
 		<input  name="data[Inscription][nit]" id="InscriptionNit" maxlength="11" onkeypress="return isNumberKey(event)" type="text"  size="5" title="El nit va sin el signo (-) y sin puntos (.)" required="required"/> -
 		<select name="data[Inscription][digitoverificacion]" id="InscriptionDigitoverificacion">
+			 <option value="0"></option>
              <option value="1">1</option>
              <option value="2">2</option>
              <option value="3">3</option>

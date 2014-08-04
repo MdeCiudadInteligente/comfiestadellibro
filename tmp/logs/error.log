@@ -14369,3 +14369,417 @@ Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
 Stack Trace:
 #0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-02 16:56:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:00:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:00:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:01:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:02:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:02:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:03:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:08:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:09:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:13:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:13:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:13:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:14:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:17:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:18:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:18:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:19:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:27:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:32:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:37:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:37:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 14:37:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:14:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:20:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:21:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:23:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:31:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:31:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:31:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:32:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:32:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:33:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:39:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:39:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:39:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:40:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:40:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:40:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:50:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:51:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 15:53:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 16:10:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 16:39:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 16:41:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-04 17:06:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'DebugKit',
+)
+Request URL: /comfiestadellibro/debug_kit/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\comfiestadellibro\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
