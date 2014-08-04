@@ -57,7 +57,7 @@ class InscriptionsController extends AppController {
 	public function download()
 	{
 		
-		$this->set('inscriptions', $this->Inscription->find('all'));
+		$this->set('inscriptions', $this->Inscription->find('all',array('order'=>'Inscription.date_assignment ASC')));
 		$this->set('categories',$this->Inscription->Date->Category->find('all'));
 		$this->layout = null;
 		//$this->autoLayout = false;
