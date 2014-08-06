@@ -436,11 +436,11 @@ class InscriptionsController extends AppController {
 		
 		$selecciudad=$this->Inscription->query("select distinct city_name from city where city_name='$ciudad' and city_state='Reserva'");
 		$this->set('selecciudad',$selecciudad);
-	
+		$inscriptionupdate=$this->Inscription->query("update inscriptions set date_assignment='$fecha' where nit='$nitc'");
 		if($idcategorian!=''){
 			if($selecciudad!=array())
 			{
-				$this->Inscription->query("update inscriptions set date_assignment='$fecha' where nit='$nitc' ORDER BY nit asc LIMIT 1");
+				
 				$actualizacion=$this->Inscription->query("update date set inscription_id ='$nitc',date_assignment='$fecha' where category_id='$idcategorian' and inscription_id='0' and date_state='Reservado' ORDER BY id_date asc LIMIT 1");
 					
 				//$this->set('actualizacion',$actualizacion);
