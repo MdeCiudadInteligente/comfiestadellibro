@@ -156,7 +156,8 @@ function conMayusculas(field)
 	<label style="padding-left:26px">
 		<input  name="data[Inscription][nit]" id="InscriptionNit" maxlength="11" onkeypress="return isNumberKey(event)" type="text"  size="5" title="El nit va sin el signo (-) y sin puntos (.)" required="required"/> -
 		<select name="data[Inscription][digitoverificacion]" id="InscriptionDigitoverificacion">
-			 <option value="0"></option>
+            <option value=""></option>
+            <option value="0">0</option>
              <option value="1">1</option>
              <option value="2">2</option>
              <option value="3">3</option>

@@ -37,3 +37,19 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
 [main] - APP/webroot/index.php, line 107
 
+2014-08-08 17:51:55 Debug: Notice (8): unserialize(): Error at offset 15640 of 54897 bytes in [C:\xampp\htdocs\cake\lib\Cake\Cache\Engine\FileEngine.php, line 194]
+Trace:
+unserialize - [internal], line ??
+FileEngine::read() - CORE\Cake\Cache\Engine\FileEngine.php, line 194
+Cache::read() - CORE\Cake\Cache\Cache.php, line 358
+I18n::translate() - CORE\Cake\I18n\I18n.php, line 232
+__ - CORE\Cake\basics.php, line 556
+include - APP\View\Inscriptions\option.ctp, line 6
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 99
+
